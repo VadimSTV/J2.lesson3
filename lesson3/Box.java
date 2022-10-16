@@ -3,7 +3,8 @@ package J2.lesson3;
 import java.util.ArrayList;
 
 public class Box<T> {
-    private boolean isFree = true;
+    private boolean //Метод с плавающей точкой
+    isFree = true;
     float maxWeigth = 100.0f;
     float currentWeigth = 0;
     ArrayList<T> arrayList;
