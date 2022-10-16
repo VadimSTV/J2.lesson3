@@ -2,7 +2,7 @@ package J2.lesson3;
 
 import java.util.ArrayList;
 
-public class Box<T> {
+public class Box<T extends Fruit> {
     private boolean //Метод который хранит значения true или false
     isFree = true;
     float maxWeigth = 100.0f;
@@ -10,10 +10,11 @@ public class Box<T> {
     ArrayList<T> arrayList;
 
     void addFruit(T fruit) {
-        if (currentWeigth + 1 <= maxWeigth) {
-        //arrayList.add(fruit);
+        if (currentWeigth + 1 == maxWeigth) {
+        arrayList.add(fruit);
         currentWeigth++;
-        if (arrayList.size() >= 1)
+        boolean isFree = true;
+        if (arrayList.size() == 1)
             isFree = false;
         } else
             System.out.println("Коробка уже полна");
