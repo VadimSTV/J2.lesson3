@@ -28,7 +28,7 @@ public class Box<T> {
         }else return false;
     }
 
-    public boolean compare(Box box){ //сравнение коробок
+    boolean compare(Box box){ //сравнение коробок
         if (currentWeigth == box.currentWeigth)
             return true;
         return false;
