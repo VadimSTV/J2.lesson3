@@ -9,10 +9,11 @@ public class HomeWork3 {
 
         Box<Apple> boxApple = new Box<>();
         Box<Orange> boxOrange = new Box<>();
+        System.out.println("Коробка с яблоками");
         boxApple.addFruit(apple);
         boxApple.addFruit(apple);
         boxApple.addFruit(apple);
-       
+        System.out.println("Коробка с апельсинами");
         boxOrange.addFruit(orange);
         boxOrange.addFruit(orange);
         boxOrange.addFruit(orange);
