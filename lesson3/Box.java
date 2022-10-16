@@ -3,7 +3,7 @@ package J2.lesson3;
 import java.util.ArrayList;
 
 public class Box<T> {
-    private boolean //Метод с плавающей точкой
+    private boolean //Метод который хранит значения true или false
     isFree = true;
     float maxWeigth = 100.0f;
     float currentWeigth = 0;
@@ -28,7 +28,7 @@ public class Box<T> {
         }else return false;
     }
 
-    public boolean compare(Box box){ //сравнение коробок
+    boolean compare(Box box){ //сравнение коробок
         if (currentWeigth == box.currentWeigth)
             return true;
         return false;

@@ -12,7 +12,7 @@ public class HomeWork3 {
         boxApple.addFruit(apple);
         boxApple.addFruit(apple);
         boxApple.addFruit(apple);
-        //boxApple.addFruit(apple);
+       
         boxOrange.addFruit(orange);
         boxOrange.addFruit(orange);
         boxOrange.addFruit(orange);
