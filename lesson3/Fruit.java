@@ -3,7 +3,7 @@ package J2.lesson3;
 public class Fruit {
     private float weigth;  //Измерение массы
 
-    public float getWeigth() {
+    public float getWeigth() {   //Метод который высчитывает вес
         return weigth;
     }
 
